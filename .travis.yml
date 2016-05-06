@@ -1,4 +1,6 @@
-language: objective-c
+language: 
+  - objective-c
+  - ruby
 script:
   - brew tap caskroom/versions
   - brew tap caskroom/cask
