@@ -1,3 +1,6 @@
 language: objective-c
 script:
-  - ':'
+  - brew tap caskroom/versions
+  - brew cask install java
+
+
