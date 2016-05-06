@@ -3,6 +3,6 @@ script:
   - brew tap caskroom/versions
   - brew tap caskroom/cask
   - brew cask install java
-  - java -versions
+  - java -version
 
 
