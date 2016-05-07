@@ -1,10 +1,7 @@
 language: 
   - objective-c
-  - ruby
+sudo: true
 script:
-  - brew tap caskroom/versions
+  - sudo apt-get install -y yum 
   - brew tap caskroom/cask
-  - brew cask install java
-  - java -version
-
 
