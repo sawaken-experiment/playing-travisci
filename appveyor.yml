@@ -1,6 +1,6 @@
 test_script:
   - 'rake -T'
-  - 'rake xxxx'
+  - 'rake hoge'
 
 build: off
 deploy: off
