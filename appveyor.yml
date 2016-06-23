@@ -1,3 +1,6 @@
 test_script:
   - 'rake -T'
   - 'rake xxxx'
+
+build: off
+deploy: off
