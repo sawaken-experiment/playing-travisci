@@ -1,3 +1,5 @@
 test_script:
   - 'rake -T'
-  - 'rake fuga'
+
+build: off
+deploy: off
