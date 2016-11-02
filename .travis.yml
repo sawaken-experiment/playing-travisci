@@ -13,7 +13,7 @@ matrix:
         packages:
         - g++-4.9
         - binutils-avr
-        - gcc-avr
+        - gcc-avr-4.9
         - avr-libc
         - avrdude
         sources:
