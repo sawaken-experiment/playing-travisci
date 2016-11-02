@@ -1,7 +1,23 @@
-language: 
-  - objective-c
+language: cpp
 sudo: true
-script:
-  - sudo apt-get install -y yum 
-  - brew tap caskroom/cask
+matrix:
+  include:
 
+  - os: osx
+    compiler: clang
+
+  - os: linux
+    compiler: gcc
+    addons:
+      apt:
+        packages:
+        - g++-4.9
+        - binutils-avr
+        - gcc-avr
+        - avr-libc
+        - avrdude
+        sources:
+        - ubuntu-toolchain-r-test
+script:
+  - uname
+  - which avr-gcc && avr-gcc --version
