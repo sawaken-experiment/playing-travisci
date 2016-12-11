@@ -1,8 +1,6 @@
 install:
-  - choco install git
   - choco install ruby
-  - gem update --system
-  - gem install rake
   
 test_script:
   - rake -T
+  - dir ..
